@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>shadys Phone Book</title>
+</head>
+<body>
+
+    <div id="top">
+
+        <nav>
+             <ul>
+                  <li><img class="t2" src="images/logo.jpg" alt="תיאור של התמונה"
+                       width="70" height="70"> </li>
+                  <li><h1 class="t1">Phone Book</h1></li>
+             </ul>
+        </nav>
+
+    </div>
+
+
+
+
+    <div id="edit_div">
+
+        <nav>
+            <h2 id="titel_edit">Edit Contact</h2>
+            <ul>
+                
+                <li><button onclick="x()">✘</button></li>
+
+                <li><input type="text" id="name" placeholder="Name"></li>
+                <li id="name_error"></li>
+        
+                 <li><input type="text" id="email" placeholder="email"></li>
+        
+                 <li><input type="text" id="location" placeholder="location"></li>
+        
+                 <li><input type="text" id="phone" placeholder="phone"></li>
+        
+                 <li id="num_error"></li>
+        
+                 <li><button onclick="seve_c()">save Contact</button></li>
+            </ul>
+        </nav>
+        </div>
+
+
+    <div id="wrapper">
+        <nav>
+                   <ul>
+                       <li><input type="text" id="search" placeholder="Search contacts..."></li>
+
+                        <li id="contact-list"></li> <!-- ריק כי אנחנו סצים את משו שינו ב js-->        
+
+                        <li><button onclick=" add ()">Add Contact</button></li>
+                        <li><button onclick=" clearContacts ()">Clear all Contact</button></li>
+                   </ul>
+        </nav>
+    </div>
+
+
+
+    <div id="footer">
+
+        <nav>
+             <ul>
+                  <li><a class="t4" href="url">facebook</a></li>
+                  <li><h3 class="t3">All rights reserved to shady &copy; 2024</h3></li>
+             </ul>
+        </nav>
+
+    </div>
+
+
+
+
+
+
+    
+    <script src="shady.js"></script>
+</body>
+</html>

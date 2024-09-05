@@ -1,0 +1,52 @@
+#top
+{ 
+    background-color: #5dbcc7;    
+}
+#top nav li{
+    display: inline-block;
+  }
+
+.t1{
+    margin-left: 550px;
+}
+
+.t2{
+    margin-top: 25%;
+    margin-right: 10%;
+}
+
+
+#footer
+{
+    background-color: #71d3de;
+    margin-top: 150px;  
+}
+
+#footer nav li{
+    display: inline-block;
+  }
+
+  .t3{
+    margin-left: 550px;
+}
+
+.t4{
+    margin-top: 25%;
+    margin-right: 10%;
+}
+
+#wrapper
+{
+    background-color: #a3eff7; 
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+#edit_div input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
